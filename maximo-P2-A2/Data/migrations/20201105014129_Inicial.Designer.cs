@@ -12,7 +12,7 @@ namespace maximo_P2_A2.Data.migrations
     [Migration("20201105014129_Inicial")]
     partial class Inicial
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
